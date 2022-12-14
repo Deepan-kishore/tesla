@@ -7,7 +7,7 @@ import {useSelector} from 'react-redux'
 
 
 function Header() {
-const [show,setshow] = useState(true);
+const [show,setshow] = useState(false);
 const cars = useSelector(selectCars);
 // console.log(cars);
 
