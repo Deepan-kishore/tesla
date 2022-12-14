@@ -30,7 +30,7 @@ return (
       </RightMenu>
 
       <Burger show={show}  >
-        <CLoseW onClick={()=>(setshow(!show))} > <CloseIcon /></CLoseW>
+        <CLoseW onClick={()=>(setshow(!show))} > <p>MENU</p></CLoseW>
         {cars.map((car,index)=>(
         <li key={index}> <a href='i'> {car} </a> </li>
 
